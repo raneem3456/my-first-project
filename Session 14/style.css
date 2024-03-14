@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 800px;
+    background-color: rgb(175,207,219);
+    min-height: 500px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.num {
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(239,140,24);
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    margin-left: 80px;
+}
+.title {
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 500px;
+    font-weight: bold;
+}
+.img1 {
+    width: 100%;
+}
+.text {
+    background-color: rgb(19,46,87);
+    margin-top: -5px;
+    padding: 20px;
+}
+.card-left {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: -14px 17px #bd7b00;
+    height: 250px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 65px;
+    padding: 20px;
+    position: relative;
+}
+.card-right {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: -14px 17px #009abd;
+    height: 250px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 65px;
+    padding: 20px;
+    position: relative;
+}
+.card-title {
+    font-size: 30px;
+    color: #ec9900;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.card-text {
+    font-size: 18px;
+    color: #000;
+    margin-top: 5px;
+    width: 70%;
+}
+.s1 {
+    color: #b17300;
+    font-weight: bold;
+}
+.s2 {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.card-image {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    width: 200px;
+}
+.img-a {
+    width: 100%;
+}
+.card-num {
+    position: absolute;
+    top : -30px;
+    left: 40px;
+    width: 50px;
+    height: 50px;
+    background-color:  #d88d00;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+}
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 30px solid transparent;
+	border-right: 15px solid #b77100;
+	border-left: 30px solid transparent;
+    position: absolute;
+    top : -30px;
+    left: -4px;
+}
